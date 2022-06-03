@@ -1,0 +1,29 @@
+.cart-dropdown {
+  width: 250px;
+  background: var(--background);
+  border: 1px solid #cdcdcd;
+  position: absolute;
+  top: 3.5rem;
+  left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.cart-dropdown__list {
+  width: 95%;
+  height: 250px;
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+@media (min-width: 550px) {
+
+  .cart-dropdown {
+    left: auto;
+    right: 100px;
+  }
+
+}

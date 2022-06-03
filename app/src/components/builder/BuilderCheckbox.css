@@ -1,0 +1,14 @@
+.builder-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .7rem auto;
+  font-family: var(--font2);
+  color: var(--dark);
+  font-weight: bold;
+  font-size: .85rem;
+}
+
+.builder-checkbox__input {
+  margin: 0 5px;
+}

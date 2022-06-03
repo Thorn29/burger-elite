@@ -1,0 +1,39 @@
+.text__heading {
+  font-family: var(--font1);
+  color: rgba(0,0,0,.1);
+  font-size: 1.7rem;
+  line-height: 3.5rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.text__content {
+  width: 80%;
+  margin: 0 auto;
+  font-family: var(--font2);
+  font-size: .8rem;
+  color: var(--dark);
+  font-weight: 500;
+  line-height: 1.3rem;
+}
+
+.text__content strong, .text__content a {
+  color: var(--main-color);
+}
+
+.text__content a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.text__content a:hover {
+  filter: brightness(80%);
+}
+
+@media (min-width: 625px) {
+
+.text__content {
+  width: 90%;
+}
+
+}

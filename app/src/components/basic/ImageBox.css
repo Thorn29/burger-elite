@@ -1,0 +1,47 @@
+.image-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box__image-container {
+  width: 90%;
+  margin: 1rem auto;
+  max-width: 300px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,.4);
+}
+
+.image-box__image {
+  display: block;
+  width: 100%;
+  transition: .3s;
+}
+
+.image-box__image:hover {
+  transform: scale(1.03);
+}
+
+@media (min-width: 625px) {
+
+.image-box {
+  flex-direction: row;
+}
+
+.image-box__text {
+  max-width: 50%;
+}
+
+}
+
+@media (min-width: 1000px) {
+
+.image-box__image-container {
+  margin: 0 20px;
+}
+
+.image-box__text {
+  max-width: 340px;
+}
+
+}

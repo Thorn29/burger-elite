@@ -1,0 +1,32 @@
+.logo {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.logo__icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 7px;
+}
+
+.logo__text {
+  font-family: var(--font1);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: var(--main-color);
+}
+
+.logo__text strong {
+  font-weight: 400;
+  color: var(--dark);
+}
+
+@media (min-width: 550px) {
+
+  .logo {
+    margin-left: 4vw;
+  }
+
+}

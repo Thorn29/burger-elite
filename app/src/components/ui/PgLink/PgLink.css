@@ -1,0 +1,42 @@
+.pg-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 220px;
+  min-height: 14rem;
+  margin: 20px;
+  border-radius: 10px;
+  background: var(--background);
+  box-shadow: 2px 3px 12px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  padding: .5rem 0;
+}
+
+.pg-link__content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pg-link__logo {
+  width: 7.5rem;
+  height: 7.5rem;
+  opacity: .5;
+}
+
+.pg-link__text {
+  font-family: var(--font2);
+  font-size: .8rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.1rem;
+  margin-top: 1rem;
+}
+
+.pg-link a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}

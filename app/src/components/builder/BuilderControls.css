@@ -1,0 +1,9 @@
+.builder-controls {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.builder-controls__buttons {
+  display: flex;
+  justify-content: center;
+}

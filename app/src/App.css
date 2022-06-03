@@ -1,0 +1,66 @@
+:root {
+  --font1: 'Russo One', sans-serif;
+  --font2: 'Montserrat', sans-serif;
+  --font3: 'Teko', sans-serif;
+
+  --dark: #444;
+  --grey: #949494;
+  --midgrey: #b0b0b0;
+  --lightgrey: #efefef;
+  --main-color: #fe7d00;
+
+  --background: radial-gradient(ellipse at top left, #fff, #dbdadc);
+  --header-bg: linear-gradient(to right, #fafafa, #e6e6e7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  background: var(--background);
+  min-height: 100vh;
+}
+
+main {
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.page {
+  width: 100%;
+  min-height: 70vh;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_title {
+  font-family: var(--font1);
+  font-weight: 100;
+  text-align: center;
+  color: var(--dark);
+}
+
+@media (min-width: 768px) {
+
+  main {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 30px 0;
+  }
+
+  .page {
+    padding-top: 2rem;
+    padding-left: 10rem;
+  }
+
+}

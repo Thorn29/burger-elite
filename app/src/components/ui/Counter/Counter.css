@@ -1,0 +1,18 @@
+.counter {
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counter__number {
+  display: flex;
+  height: .9rem;
+  align-items: center;
+}
+
+.counter__arrow {
+  cursor: pointer;
+  border: none;
+  background: none;
+}

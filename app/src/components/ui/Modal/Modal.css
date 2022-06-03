@@ -1,0 +1,21 @@
+.modal__backdrop {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.modal__window {
+  max-width: 90%;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}

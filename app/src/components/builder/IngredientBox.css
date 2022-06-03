@@ -1,0 +1,40 @@
+.ingredient-box {
+  display: block;
+  width: 96%;
+  height: 2.5rem;
+  background: white;
+  border: 1px solid #cdcdcd;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 7px auto;
+}
+
+.ingredient-box__name{
+  font-family: var(--font1);
+  font-size: 1.1rem;
+  color: var(--dark);
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+@media (min-width: 450px) {
+
+.ingredient-box {
+  width: 100px;
+  padding: 10px 5px;
+  box-sizing: content-box;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+}
+
+.ingredient-box__name {
+  font-size: .9rem;
+  margin-bottom: 7px;
+}
+
+}

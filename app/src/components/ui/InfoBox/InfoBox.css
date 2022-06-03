@@ -1,0 +1,12 @@
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-box__text {
+  font-family: var(--font1);
+  color: var(--dark);
+  text-align: center;
+  margin-bottom: 1rem;
+}

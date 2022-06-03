@@ -1,0 +1,15 @@
+.burger {
+  width: 80%;
+  max-width: 380px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+
+.burger__price {
+  display: block;
+  font-family: var(--font1);
+  font-size: 1.5rem;
+  margin-top:30px;
+  text-align: center;
+}

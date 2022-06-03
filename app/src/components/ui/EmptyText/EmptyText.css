@@ -1,0 +1,7 @@
+.empty {
+  font-family: var(--font2);
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--midgrey);
+  text-align: center;
+}
