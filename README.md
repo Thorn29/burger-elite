@@ -2,7 +2,7 @@
 
 An example app for an elite fast-food restaurant that offers various food as well as custom special burgers, that you can build yourself and tailor to your own needs.
 
-[See live demo](https://burger-elite.herokuapp.com)
+[See live demo](https://burger-elite-production.up.railway.app/)
 
 ## Development
 
