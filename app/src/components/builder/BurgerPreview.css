@@ -2,7 +2,8 @@
 --ingsize: 1rem;
 position: relative;
 display: flex;
-flex-direction: column-reverse;
+flex-direction: column;
+transform: rotate(180deg);
 }
 
 .burger-preview.burger-preview--min {
@@ -20,9 +21,9 @@ flex-direction: column-reverse;
   height: calc(var(--ingsize) * 4);
   background: url('../../assets/builder/bun.jpg');
   margin: 0 auto;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  box-shadow: 0 .5rem 2rem rgba(255,255,255,.5) inset;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 0 -.5rem 2rem rgba(255,255,255,.5) inset;
 }
 
 .burger-preview::before {
@@ -32,9 +33,9 @@ flex-direction: column-reverse;
   height: calc(var(--ingsize) * 2);
   background: url('../../assets/builder/bun.jpg');
   margin: 0 auto;
-  border-bottom-left-radius: 3rem;
-  border-bottom-right-radius: 3rem;
-  box-shadow: 0 -.5rem 1rem rgba(0,0,0,.2) inset;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.2) inset;
 }
 
 .burger-preview__seeds {
@@ -43,7 +44,7 @@ flex-direction: column-reverse;
   height: calc(2 * var(--ingsize));
   background: url('../../assets/builder/seeds.png');
   background-size: calc(1.4 * var(--ingsize));
-  top: calc(1 * var(--ingsize));
+  bottom: calc(1 * var(--ingsize));
   left: 50%;
   transform: translateX(-50%);
   opacity: .5;

@@ -11,7 +11,7 @@ const BurgerPreview = ({ ingredients, ingCount, seeds, seedStatus, min }) => {
     <div className={min ? 'burger-preview burger-preview--min' : 'burger-preview'}>
       {((!min && seeds) || (min && seedStatus)) && <span className='burger-preview__seeds' />}
       {ingCount === 0 && !min ?
-       <EmptyText margin='10px 0'>Start building your burger!</EmptyText> :
+       <EmptyText margin='10px 0' rotate='rotate(180deg)'>Start building your burger!</EmptyText> :
        ingredients.map(ing => [...Array(ing.amount)].map((el, idx) => <Ingredient key={`${ing.name}${idx}`} type={ing.name} />))}
     </div>
   );

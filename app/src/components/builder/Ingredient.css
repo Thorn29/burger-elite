@@ -7,36 +7,35 @@
 .ingredient.pickles {
   height: calc(var(--ingsize) * 1);
   background: url('../../assets/builder/pickles.png');
-  margin-bottom: -3%;
+  margin-top: -3%;
   background-size: contain;
 }
 
 .ingredient.onions {
   height: calc(var(--ingsize) * 1.1);
   background: url('../../assets/builder/onions.png');
-  margin-bottom: -2.5%;
+  margin-top: -2.5%;
   background-size: contain;
 }
 
 .ingredient.bacon {
   height: calc(var(--ingsize) * .8);
   background: url('../../assets/builder/bacon.png');
-  margin-bottom: -2%;
+  margin-top: -2%;
   background-size: contain;
 }
 
 .ingredient.cheese {
   height: calc(var(--ingsize) * 1);
   background: url('../../assets/builder/cheese.png');
-  margin-bottom: -3%;
+  margin-top: -3%;
   background-size: contain;
 }
 
 .ingredient.beef, .ingredient.chicken {
   height: calc(var(--ingsize) * 1.8);
   background: url('../../assets/builder/beef.jpg');
-  /* background-size: contain; */
-  box-shadow: 0 -.5rem 1rem rgba(0,0,0,.5) inset;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.5) inset;
 }
 
 .ingredient.chicken {
@@ -46,27 +45,27 @@
 .ingredient.tomatoes {
   height: calc(var(--ingsize) * 1);
   background: url('../../assets/builder/tomato.png');
-  margin-bottom: -3.5%;
+  margin-top: -3.5%;
   background-size: contain;
 }
 
 .ingredient.lettuce {
   height: calc(var(--ingsize) * 1);
   background: url('../../assets/builder/lettuce.png');
-  margin-bottom: -3%;
+  margin-top: -3%;
   background-size: contain;
 }
 
 .ingredient.ketchup {
   height: calc(var(--ingsize) * 1);
   background: url('../../assets/builder/ketchup.png');
-  margin-bottom: -3.5%;
+  margin-top: -3.5%;
   background-size: contain;
 }
 
 .ingredient.mustard {
   height: calc(var(--ingsize) * 1);
   background: url('../../assets/builder/mustard.png');
-  margin-bottom: -3.5%;
+  margin-top: -3.5%;
   background-size: contain;
 }
